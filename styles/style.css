@@ -1,0 +1,198 @@
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+.nav-style{
+
+
+}
+  nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 15px 10px 15px 10px;
+}
+.nav-btn{
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #006A50 ;
+border-radius: 8px;
+  }
+  
+    
+  .nav-title{
+    height:38px;
+    width: 222px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+
+/* banner */
+.banner{
+padding: 80px 100px 80px 100px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  
+}
+section.img{
+  
+position: absolute;
+width: 474.03px;
+height: 329.21px;
+left: 157.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+}
+.banner-title{
+  color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-description{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.btn-primary{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+padding: 17px 34px 17px 34px;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+}
+/* banner end */
+/* pillar */
+.pillar-head{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: 32px 0px;
+}
+.pillar-container{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 24px;
+padding: 0px;
+
+}
+.pillar-style{
+  margin-top: 80px;
+  padding: 0px;
+  gap: 32px;
+  
+}
+.pillar{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 24px;
+}
+.pillar-title{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.pillar-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* vission */
+
+.head-title{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 0px;
+gap: 24px;
+}
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 32px;
+}
+.vission-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  margin: 0px 24px;
+}
+.vission{
+  box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+}
+#secondbg{
+  box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+#thirdbg{
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+  background: rgb(247, 235, 207);
+}

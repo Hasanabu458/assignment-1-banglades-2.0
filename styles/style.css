@@ -3,6 +3,19 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
+
+    position: absolute;
+width: 1600px;
+height: 5181px;
+left: 0;
+top: 120px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 0px;
   
   }
 
@@ -471,14 +484,21 @@ padding: 10px 20px;
 border-radius: 5px;
 
 }
-.input{
- box-sizing: border-box;
-border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
-justify-content: center;
-
-padding: 32px 500px;
-width: 100px;
+.donation input{
+  color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding: 10px 120px;
+}
+.donation .input-amount{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 120px;
 }
 .donation{
   align-items: center;
